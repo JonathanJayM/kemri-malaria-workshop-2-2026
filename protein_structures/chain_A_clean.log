@@ -1,0 +1,228 @@
+2026-08-17 20:18:22,079 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2026-08-17 20:18:22,080 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-08-17 20:18:22,080 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-08-17 20:18:22,080 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2026-08-17 20:18:22,080 INFO:main.py:772:main_driver:Loading topology files.
+2026-08-17 20:18:22,177 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
+2026-08-17 20:18:22,177 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
+2026-08-17 20:18:22,177 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
+2026-08-17 20:18:22,177 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
+2026-08-17 20:18:22,208 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
+
+2026-08-17 20:18:22,209 ERROR:io.py:469:get_molecule:['REMARK']
+2026-08-17 20:18:22,209 INFO:main.py:779:main_driver:Setting up molecule.
+2026-08-17 20:18:22,252 INFO:main.py:417:setup_molecule:Created biomolecule object with 548 residues and 4555 atoms.
+2026-08-17 20:18:22,253 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2026-08-17 20:18:22,270 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between VAL A 86 and LYS A 96!
+2026-08-17 20:18:22,272 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN A 231 and ASP A 283!
+2026-08-17 20:18:22,275 INFO:main.py:613:non_trivial:Loading forcefield.
+2026-08-17 20:18:22,293 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2026-08-17 20:18:22,311 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-17 20:18:22,311 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-17 20:18:22,320 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-17 20:18:22,320 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-17 20:18:22,328 INFO:main.py:627:non_trivial:Attempting to repair 2 missing atoms in biomolecule.
+2026-08-17 20:18:22,329 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-17 20:18:22,329 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-17 20:18:22,337 INFO:biomolecule.py:1077:repair_heavy:Added atom CG1 to residue VAL A 86 at coordinates 8.363, -26.762, -55.611
+2026-08-17 20:18:22,337 INFO:biomolecule.py:1077:repair_heavy:Added atom CG2 to residue VAL A 86 at coordinates 7.474, -26.333, -57.905
+2026-08-17 20:18:22,341 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2026-08-17 20:18:22,343 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2026-08-17 20:18:22,616 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2026-08-17 20:18:23,351 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2026-08-17 20:18:24,337 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2026-08-17 20:18:26,281 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2026-08-17 20:18:26,290 INFO:main.py:722:non_trivial:Regenerating headers.
+2026-08-17 20:18:26,292 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2026-08-17 20:18:26,365 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
+2026-08-17 20:18:26,471 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
+2026-08-18 13:57:09,865 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2026-08-18 13:57:09,866 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-08-18 13:57:09,866 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-08-18 13:57:09,866 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2026-08-18 13:57:09,866 INFO:main.py:772:main_driver:Loading topology files.
+2026-08-18 13:57:09,991 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
+2026-08-18 13:57:09,991 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
+2026-08-18 13:57:09,992 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
+2026-08-18 13:57:09,992 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
+2026-08-18 13:57:10,018 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
+
+2026-08-18 13:57:10,018 ERROR:io.py:469:get_molecule:['REMARK']
+2026-08-18 13:57:10,018 INFO:main.py:779:main_driver:Setting up molecule.
+2026-08-18 13:57:10,046 INFO:main.py:417:setup_molecule:Created biomolecule object with 548 residues and 4555 atoms.
+2026-08-18 13:57:10,047 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2026-08-18 13:57:10,064 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between VAL A 86 and LYS A 96!
+2026-08-18 13:57:10,066 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN A 231 and ASP A 283!
+2026-08-18 13:57:10,069 INFO:main.py:613:non_trivial:Loading forcefield.
+2026-08-18 13:57:10,086 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2026-08-18 13:57:10,091 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-18 13:57:10,091 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-18 13:57:10,094 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-18 13:57:10,094 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-18 13:57:10,099 INFO:main.py:627:non_trivial:Attempting to repair 2 missing atoms in biomolecule.
+2026-08-18 13:57:10,100 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-18 13:57:10,100 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-18 13:57:10,104 INFO:biomolecule.py:1077:repair_heavy:Added atom CG1 to residue VAL A 86 at coordinates 8.363, -26.762, -55.611
+2026-08-18 13:57:10,105 INFO:biomolecule.py:1077:repair_heavy:Added atom CG2 to residue VAL A 86 at coordinates 7.474, -26.333, -57.905
+2026-08-18 13:57:10,108 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2026-08-18 13:57:10,110 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2026-08-18 13:57:10,361 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2026-08-18 13:57:11,044 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2026-08-18 13:57:12,021 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2026-08-18 13:57:14,050 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2026-08-18 13:57:14,064 INFO:main.py:722:non_trivial:Regenerating headers.
+2026-08-18 13:57:14,066 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2026-08-18 13:57:14,148 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
+2026-08-18 13:57:14,263 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
+2026-08-23 09:33:22,830 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2026-08-23 09:33:22,831 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-08-23 09:33:22,831 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-08-23 09:33:22,831 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2026-08-23 09:33:22,831 INFO:main.py:772:main_driver:Loading topology files.
+2026-08-23 09:33:22,942 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
+2026-08-23 09:33:22,942 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
+2026-08-23 09:33:22,942 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
+2026-08-23 09:33:22,942 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
+2026-08-23 09:33:22,972 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
+
+2026-08-23 09:33:22,972 ERROR:io.py:469:get_molecule:['REMARK']
+2026-08-23 09:33:22,972 INFO:main.py:779:main_driver:Setting up molecule.
+2026-08-23 09:33:23,011 INFO:main.py:417:setup_molecule:Created biomolecule object with 548 residues and 4555 atoms.
+2026-08-23 09:33:23,011 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2026-08-23 09:33:23,032 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between VAL A 86 and LYS A 96!
+2026-08-23 09:33:23,034 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN A 231 and ASP A 283!
+2026-08-23 09:33:23,037 INFO:main.py:613:non_trivial:Loading forcefield.
+2026-08-23 09:33:23,056 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2026-08-23 09:33:23,062 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 09:33:23,062 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 09:33:23,066 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 09:33:23,066 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 09:33:23,070 INFO:main.py:627:non_trivial:Attempting to repair 2 missing atoms in biomolecule.
+2026-08-23 09:33:23,071 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 09:33:23,071 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 09:33:23,075 INFO:biomolecule.py:1077:repair_heavy:Added atom CG1 to residue VAL A 86 at coordinates 8.363, -26.762, -55.611
+2026-08-23 09:33:23,075 INFO:biomolecule.py:1077:repair_heavy:Added atom CG2 to residue VAL A 86 at coordinates 7.474, -26.333, -57.905
+2026-08-23 09:33:23,078 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2026-08-23 09:33:23,079 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2026-08-23 09:33:23,370 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2026-08-23 09:33:24,036 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2026-08-23 09:33:25,973 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2026-08-23 09:33:29,031 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2026-08-23 09:33:29,040 INFO:main.py:722:non_trivial:Regenerating headers.
+2026-08-23 09:33:29,042 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2026-08-23 09:33:29,109 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
+2026-08-23 09:33:29,200 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
+2026-08-23 10:58:08,328 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2026-08-23 10:58:08,328 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-08-23 10:58:08,328 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-08-23 10:58:08,329 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2026-08-23 10:58:08,329 INFO:main.py:772:main_driver:Loading topology files.
+2026-08-23 10:58:08,503 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
+2026-08-23 10:58:08,503 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
+2026-08-23 10:58:08,503 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
+2026-08-23 10:58:08,504 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
+2026-08-23 10:58:08,542 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
+
+2026-08-23 10:58:08,542 ERROR:io.py:469:get_molecule:['REMARK']
+2026-08-23 10:58:08,543 INFO:main.py:779:main_driver:Setting up molecule.
+2026-08-23 10:58:08,593 INFO:main.py:417:setup_molecule:Created biomolecule object with 548 residues and 4555 atoms.
+2026-08-23 10:58:08,595 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2026-08-23 10:58:08,617 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between VAL A 86 and LYS A 96!
+2026-08-23 10:58:08,619 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN A 231 and ASP A 283!
+2026-08-23 10:58:08,624 INFO:main.py:613:non_trivial:Loading forcefield.
+2026-08-23 10:58:08,649 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2026-08-23 10:58:08,658 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 10:58:08,658 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 10:58:08,664 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 10:58:08,664 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 10:58:08,672 INFO:main.py:627:non_trivial:Attempting to repair 2 missing atoms in biomolecule.
+2026-08-23 10:58:08,673 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 10:58:08,673 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 10:58:08,678 INFO:biomolecule.py:1077:repair_heavy:Added atom CG1 to residue VAL A 86 at coordinates 8.363, -26.762, -55.611
+2026-08-23 10:58:08,679 INFO:biomolecule.py:1077:repair_heavy:Added atom CG2 to residue VAL A 86 at coordinates 7.474, -26.333, -57.905
+2026-08-23 10:58:08,683 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2026-08-23 10:58:08,686 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2026-08-23 10:58:09,016 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2026-08-23 10:58:09,719 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2026-08-23 10:58:10,679 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2026-08-23 10:58:12,937 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2026-08-23 10:58:12,947 INFO:main.py:722:non_trivial:Regenerating headers.
+2026-08-23 10:58:12,950 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2026-08-23 10:58:13,025 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
+2026-08-23 10:58:13,123 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
+2026-08-23 11:00:12,969 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2026-08-23 11:00:12,969 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-08-23 11:00:12,970 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-08-23 11:00:12,970 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2026-08-23 11:00:12,970 INFO:main.py:772:main_driver:Loading topology files.
+2026-08-23 11:00:13,064 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
+2026-08-23 11:00:13,065 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
+2026-08-23 11:00:13,065 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
+2026-08-23 11:00:13,065 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
+2026-08-23 11:00:13,109 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
+
+2026-08-23 11:00:13,109 ERROR:io.py:469:get_molecule:['REMARK']
+2026-08-23 11:00:13,109 INFO:main.py:779:main_driver:Setting up molecule.
+2026-08-23 11:00:13,140 INFO:main.py:417:setup_molecule:Created biomolecule object with 548 residues and 4555 atoms.
+2026-08-23 11:00:13,141 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2026-08-23 11:00:13,157 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between VAL A 86 and LYS A 96!
+2026-08-23 11:00:13,159 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN A 231 and ASP A 283!
+2026-08-23 11:00:13,162 INFO:main.py:613:non_trivial:Loading forcefield.
+2026-08-23 11:00:13,184 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2026-08-23 11:00:13,189 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 11:00:13,189 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 11:00:13,193 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 11:00:13,193 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 11:00:13,196 INFO:main.py:627:non_trivial:Attempting to repair 2 missing atoms in biomolecule.
+2026-08-23 11:00:13,197 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 11:00:13,197 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 11:00:13,202 INFO:biomolecule.py:1077:repair_heavy:Added atom CG1 to residue VAL A 86 at coordinates 8.363, -26.762, -55.611
+2026-08-23 11:00:13,203 INFO:biomolecule.py:1077:repair_heavy:Added atom CG2 to residue VAL A 86 at coordinates 7.474, -26.333, -57.905
+2026-08-23 11:00:13,206 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2026-08-23 11:00:13,209 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2026-08-23 11:00:13,512 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2026-08-23 11:00:14,177 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2026-08-23 11:00:15,134 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2026-08-23 11:00:17,097 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2026-08-23 11:00:17,105 INFO:main.py:722:non_trivial:Regenerating headers.
+2026-08-23 11:00:17,107 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2026-08-23 11:00:17,175 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
+2026-08-23 11:00:17,274 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
+2026-08-23 12:16:31,104 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2026-08-23 12:16:31,105 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-08-23 12:16:31,105 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-08-23 12:16:31,105 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2026-08-23 12:16:31,106 INFO:main.py:772:main_driver:Loading topology files.
+2026-08-23 12:16:31,192 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
+2026-08-23 12:16:31,193 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
+2026-08-23 12:16:31,193 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
+2026-08-23 12:16:31,193 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
+2026-08-23 12:16:31,222 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
+
+2026-08-23 12:16:31,223 ERROR:io.py:469:get_molecule:['REMARK']
+2026-08-23 12:16:31,223 INFO:main.py:779:main_driver:Setting up molecule.
+2026-08-23 12:16:31,254 INFO:main.py:417:setup_molecule:Created biomolecule object with 548 residues and 4555 atoms.
+2026-08-23 12:16:31,254 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2026-08-23 12:16:31,267 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between VAL A 86 and LYS A 96!
+2026-08-23 12:16:31,268 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN A 231 and ASP A 283!
+2026-08-23 12:16:31,273 INFO:main.py:613:non_trivial:Loading forcefield.
+2026-08-23 12:16:31,296 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2026-08-23 12:16:31,303 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 12:16:31,303 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 12:16:31,306 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 12:16:31,307 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 12:16:31,311 INFO:main.py:627:non_trivial:Attempting to repair 2 missing atoms in biomolecule.
+2026-08-23 12:16:31,311 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG1 in residue VAL A 86
+2026-08-23 12:16:31,312 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG2 in residue VAL A 86
+2026-08-23 12:16:31,316 INFO:biomolecule.py:1077:repair_heavy:Added atom CG1 to residue VAL A 86 at coordinates 8.363, -26.762, -55.611
+2026-08-23 12:16:31,316 INFO:biomolecule.py:1077:repair_heavy:Added atom CG2 to residue VAL A 86 at coordinates 7.474, -26.333, -57.905
+2026-08-23 12:16:31,319 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2026-08-23 12:16:31,323 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2026-08-23 12:16:31,582 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2026-08-23 12:16:32,226 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2026-08-23 12:16:33,188 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2026-08-23 12:16:35,151 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2026-08-23 12:16:35,159 INFO:main.py:722:non_trivial:Regenerating headers.
+2026-08-23 12:16:35,161 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2026-08-23 12:16:35,238 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
+2026-08-23 12:16:35,496 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
