@@ -1,4 +1,4 @@
-# PFDHFR–Pyrimethamine Molecular Docking Workshop
+## PFDHFR–Pyrimethamine Molecular Docking Workshop
 
 ## Python-Based Structure-Guided Drug Discovery Workflow
 
