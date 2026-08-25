@@ -10,7 +10,7 @@ The workflow was implemented primarily in **Python**.
 
 ---
 
-## Workshop Objective
+### Workshop Objective
 
 The objective of this practical is to demonstrate how computational drug-discovery tools can be combined into a reproducible Python workflow to investigate ligand binding to a protein target.
 
@@ -76,7 +76,7 @@ Ligand Preparation           │
 
 ---
 
-# 1. Biological Target — PfDHFR
+## 1. Biological Target — PfDHFR
 
 The workshop begins with the **PFDHFR gene**, which encodes the *Plasmodium falciparum* dihydrofolate reductase (PfDHFR) target.
 
@@ -86,7 +86,7 @@ The workflow uses protein structures representing different PfDHFR states to inv
 
 ---
 
-# 2. Protein Structures
+## 2. Protein Structures
 
 Two receptor structures are investigated:
 
@@ -114,7 +114,7 @@ Each receptor is independently prepared and docked with the ligand.
 
 ---
 
-# 3. Obtaining Pyrimethamine
+## 3. Obtaining Pyrimethamine
 
 The ligand used in this workshop is **pyrimethamine**.
 
@@ -130,7 +130,7 @@ The structure is then processed using **RDKit**.
 
 ---
 
-# 4. Ligand Modification Using RDKit
+## 4. Ligand Modification Using RDKit
 
 RDKit is used to manipulate and prepare the pyrimethamine structure programmatically.
 
@@ -162,7 +162,7 @@ The exact modification applied during the workshop is retained in the correspond
 
 ---
 
-# 5. Ligand Preparation for Docking
+## 5. Ligand Preparation for Docking
 
 After modification, the ligand is converted into a docking-compatible representation.
 
@@ -195,7 +195,7 @@ Docking-ready ligand
 
 ---
 
-# 6. Receptor Preparation
+## 6. Receptor Preparation
 
 The two protein structures are prepared independently.
 
@@ -213,7 +213,7 @@ This allows the docking results to be compared between the wild-type and mutant 
 
 ---
 
-# 7. Molecular Docking
+## 7. Molecular Docking
 
 The prepared pyrimethamine ligand is docked against both receptor structures.
 
@@ -241,7 +241,7 @@ The docking stage produces multiple possible ligand poses, which can subsequentl
 
 ---
 
-# 8. Docking Pose Analysis
+## 8. Docking Pose Analysis
 
 Docking results should not be interpreted from the docking score alone.
 
@@ -269,7 +269,7 @@ A useful comparison is:
 
 ---
 
-# 9. Protein–Ligand Interaction Fingerprints (PLIF)
+## 9. Protein–Ligand Interaction Fingerprints (PLIF)
 
 Following docking, the predicted complexes are analyzed using **Protein–Ligand Interaction Fingerprints (PLIFs)**.
 
@@ -285,7 +285,7 @@ The analysis can identify interactions such as:
 
 ---
 
-# 10. 2D Interaction Visualization
+## 10. 2D Interaction Visualization
 
 The final stage of the workflow is visualization of the protein–ligand interactions as **2D interaction diagrams**.
 
@@ -307,7 +307,7 @@ The 2D interaction maps make it easier to compare the binding environment of pyr
 
 ---
 
-# 11. Python-Based Workflow
+## 11. Python-Based Workflow
 
 A key feature of this workshop is that the workflow is implemented programmatically rather than relying entirely on graphical interfaces.
 
@@ -429,7 +429,7 @@ Run the notebooks sequentially:
 
 ---
 
-# Learning Outcomes
+### Learning Outcomes
 
 After completing the workshop, participants should be able to:
 
