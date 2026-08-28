@@ -271,62 +271,8 @@ The analysis can identify interactions such as:
 
 ---
 
-## 10. 2D Interaction Visualization
-
-The final stage of the workflow is visualization of the protein–ligand interactions as **2D interaction diagrams**.
-
-These diagrams provide a simplified representation of:
-
-```text
-Protein residues
-       │
-       ├── Hydrogen bonds
-       ├── Hydrophobic contacts
-       ├── Aromatic interactions
-       └── Other interactions
-                │
-                ▼
-            Pyrimethamine
-```
-
-The 2D interaction maps make it easier to compare the binding environment of pyrimethamine between the wild-type and mutant PfDHFR structures.
-
----
-
-## 11. Python-Based Workflow
-
-A key feature of this workshop is that the workflow is implemented programmatically rather than relying entirely on graphical interfaces.
-
-The computational pipeline uses Python for:
-
-```text
-Data acquisition
-      ↓
-Molecular manipulation
-      ↓
-Ligand preparation
-      ↓
-Protein preparation
-      ↓
-Docking
-      ↓
-Pose processing
-      ↓
-Interaction analysis
-      ↓
 Visualization
 ```
-
-This approach makes the analysis:
-
-* Reproducible
-* Automatable
-* Scriptable
-* Easier to modify
-* Suitable for processing multiple ligands or receptors
-
----
-
 # Repository Structure
 
 ```text
@@ -387,7 +333,7 @@ conda activate vina
 Install the required Python packages:
 
 ```bash
-pip install -r requirements.txt
+pip install -r environment.yml
 ```
 
 Run the notebooks sequentially:
@@ -425,43 +371,6 @@ The workshop demonstrates the transition from:
 rather than treating molecular docking as an isolated step.
 
 ```text
-                STRUCTURE-BASED DRUG DISCOVERY
-
-PFDHFR
-  │
-  ▼
-Protein Structure
-  │
-  ├───────────────┐
-  ▼               ▼
-Wild Type       Mutant
-3QGT            1J3J
-  │               │
-  └───────┬───────┘
-          │
-          ▼
-     Pyrimethamine
-          │
-          ▼
-         RDKit
-          │
-          ▼
-    Ligand Preparation
-          │
-          ▼
-       Docking
-          │
-          ▼
-        PLIF
-          │
-          ▼
-  2D Interaction Maps
-          │
-          ▼
-   Comparative Analysis
-```
-
----
 
 ## Reproducibility
 
