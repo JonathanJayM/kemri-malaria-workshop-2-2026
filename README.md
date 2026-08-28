@@ -359,29 +359,11 @@ pfdhfr-pyrimethamine-docking/
 │
 ├── notebooks/
 │   ├── 01_pfdhfr_introduction.ipynb
-│   ├── 02_ligand_acquisition.ipynb
-│   ├── 03_rdkit_ligand_modification.ipynb
-│   ├── 04_ligand_preparation.ipynb
-│   ├── 05_protein_preparation.ipynb
-│   ├── 06_docking.ipynb
-│   └── 07_plif_analysis.ipynb
+│   ├── 02_rdkit_ligand_modification.ipynb
+│   ├── 03_molecule preparation
+│   ├── 04_docking.ipynb
+│   └── 05_plif_analysis.ipynb
 │
-├── docking/
-│   ├── wildtype_3QGT/
-│   └── mutant_1J3J/
-│
-├── results/
-│   ├── docking_scores/
-│   ├── poses/
-│   └── plif/
-│
-├── scripts/
-│   ├── ligand_preparation.py
-│   ├── receptor_preparation.py
-│   ├── docking.py
-│   └── plif_analysis.py
-│
-└── requirements.txt
 ```
 
 ---
