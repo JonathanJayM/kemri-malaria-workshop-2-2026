@@ -386,15 +386,16 @@ pfdhfr-pyrimethamine-docking/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/pfdhfr-pyrimethamine-docking.git
-cd pfdhfr-pyrimethamine-docking
+cd Desktop
+mkdir malaria-workshop-2026
+cd malaria-workshop-2026
+https://github.com/petermargaret/kemri-malaria-workshop-2-2026.git
 ```
-
 Create a Python environment:
 
 ```bash
-conda create -n pf_docking python=3.11
-conda activate pf_docking
+conda create -n vina
+conda activate vina
 ```
 
 Install the required Python packages:
