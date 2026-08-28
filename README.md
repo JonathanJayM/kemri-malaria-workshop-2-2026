@@ -326,14 +326,16 @@ cd kemri-malaria-workshop-2-2026
 Create a Python environment:
 
 ```bash
-conda create -n vina
-conda activate vina
+conda deactivate
+conda remove -n test --all
+conda create -n test python=3.12
+conda activate test
 ```
 
 Install the required Python packages:
 
 ```bash
-pip install -r environment.yml
+pip install -r requrements.txt
 ```
 
 Run the notebooks sequentially:
