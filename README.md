@@ -338,7 +338,7 @@ pip install -r environment.yml
 Run the notebooks sequentially:
 
 ```text
-01 → 02 → 03 → 04 → 05 → 06 → 07
+01 → 02 → 03 → 04 → 05
 ```
 
 ---
