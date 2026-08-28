@@ -371,7 +371,7 @@ The workshop demonstrates the transition from:
 rather than treating molecular docking as an isolated step.
 
 ```text
-
+----
 ## Reproducibility
 
 All computational steps are designed to be reproducible through Python scripts and Jupyter notebooks.
