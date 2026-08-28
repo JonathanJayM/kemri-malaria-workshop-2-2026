@@ -389,7 +389,7 @@ Clone the repository:
 cd Desktop
 mkdir malaria-workshop-2026
 cd malaria-workshop-2026
-https://github.com/petermargaret/kemri-malaria-workshop-2-2026.git
+git clone https://github.com/petermargaret/kemri-malaria-workshop-2-2026.git
 ```
 Create a Python environment:
 
