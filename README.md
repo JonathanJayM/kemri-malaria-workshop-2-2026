@@ -321,6 +321,7 @@ cd Desktop
 mkdir malaria-workshop-2026
 cd malaria-workshop-2026
 git clone https://github.com/petermargaret/kemri-malaria-workshop-2-2026.git
+cd kemri-malaria-workshop-2-2026
 ```
 Create a Python environment:
 
