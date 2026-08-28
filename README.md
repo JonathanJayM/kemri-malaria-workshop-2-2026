@@ -8,7 +8,6 @@ The workshop follows a complete computational workflow, beginning with the biolo
 
 The workflow was implemented primarily in **Python**.
 
----
 
 ### Workshop Objective
 
@@ -371,7 +370,8 @@ The workshop demonstrates the transition from:
 rather than treating molecular docking as an isolated step.
 
 ```text
-----
+
+```
 ## Reproducibility
 
 All computational steps are designed to be reproducible through Python scripts and Jupyter notebooks.
