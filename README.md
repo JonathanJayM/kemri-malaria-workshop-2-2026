@@ -144,20 +144,6 @@ The workflow demonstrates how Python can be used to:
 * Generate 3D coordinates where required
 * Prepare the ligand for subsequent docking
 
-Example workflow:
-
-```python
-from rdkit import Chem
-from rdkit.Chem import AllChem
-
-mol = Chem.MolFromMolFile("pyrimethamine.sdf")
-
-mol = Chem.AddHs(mol)
-
-AllChem.EmbedMolecule(mol)
-AllChem.UFFOptimizeMolecule(mol)
-```
-
 The exact modification applied during the workshop is retained in the corresponding notebook/script.
 
 ---
