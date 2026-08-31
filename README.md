@@ -318,8 +318,6 @@ Clone the repository:
 
 ```bash
 cd Desktop
-mkdir malaria-workshop-2026
-cd malaria-workshop-2026
 git clone https://github.com/petermargaret/kemri-malaria-workshop-2-2026.git
 cd kemri-malaria-workshop-2-2026
 ```
@@ -327,9 +325,8 @@ Create a Python environment:
 
 ```bash
 conda deactivate
-conda remove -n test --all
-conda create -n test python=3.12
-conda activate test
+conda create -n vina python=3.12
+conda activate vina
 ```
 
 Install the required Python packages:
