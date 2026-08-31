@@ -333,18 +333,17 @@ conda list
 ```
 Install miniconda iOS - while in same directory:
 ```bash
-conda deactivate
-conda create -n vina python=3.12
-conda activate vina
-```
-
-Create a Python environment:
-
-```bash
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
 bash ~/Miniconda3-latest-MacOSX-arm64.sh
 source ~/.zshrc
 conda list
+```
+Create a Python environment:
+
+```bash
+conda create -n vina python=3.12
+conda activate vina
+you should see: (base) biohack@MacBook-2 workshop-2-Malaria % 
 ```
 Install the required Python packages:
 
