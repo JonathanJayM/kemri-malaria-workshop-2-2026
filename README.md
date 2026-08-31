@@ -338,9 +338,8 @@ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
 source ~/.zshrc
 conda list
 ```
-Install the required Python packages
+Install the required Python package: Installation of Vina 1.25 and other libraries
 ```
-Installation of Vina 1.25 and other libraries
 ```bash
 conda create -n vina -c conda-forge python=3.12
 conda activate vina
@@ -350,6 +349,7 @@ python -m pip install meeko plip vina
 Run the notebooks sequentially:
 
 ```text
+on the terminal run command: jupyter lab
 01 → 02 → 03 → 04 → 05
 ```
 
