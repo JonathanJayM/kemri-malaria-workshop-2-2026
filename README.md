@@ -332,7 +332,7 @@ conda activate vina
 Install the required Python packages:
 
 ```bash
-pip install rdkit nglview meeko MDAnalysis plip
+pip install rdkit nglview meeko MDAnalysis plip jupyter lab
 ```
 
 Run the notebooks sequentially:
