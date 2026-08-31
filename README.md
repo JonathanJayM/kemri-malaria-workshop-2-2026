@@ -353,7 +353,10 @@ pip install rdkit nglview meeko MDAnalysis plip jupyter lab
 ```Run Jupyter lab on vina environment
 on terminal run: (vina) biohack@MacBook-2 workshop-2-Malaria % jupyter lab
 ```
-
+Installation of Vina 1.25
+```bash
+conda install conda-forge::vina==1.2.5
+```
 Run the notebooks sequentially:
 
 ```text
