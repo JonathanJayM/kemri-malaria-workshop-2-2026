@@ -350,6 +350,7 @@ Run the notebooks sequentially:
 
 ```text
 on the terminal run command: jupyter lab
+- proceed to execute the notebook in the order:
 01 → 02 → 03 → 04 → 05
 ```
 
