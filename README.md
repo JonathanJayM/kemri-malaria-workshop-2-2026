@@ -325,7 +325,7 @@ Install miniconda Linux OS - while in same directory:
 ```bash
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod 755 Miniconda3-latest-Linux-x86_64.sh
-bash ~/Miniconda3-latest-Linux-x86_64.sh
+./Miniconda3-latest-Linux-x86_64.sh
 Enter yes to agree to the EULA
 source ~/.bashrc
 _You should see (base) in the command line prompt. This tells you that you’re in your base conda environment._
@@ -334,7 +334,7 @@ conda list
 Install miniconda iOS - while in same directory:
 ```bash
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
-bash ~/Miniconda3-latest-MacOSX-arm64.sh
+./Miniconda3-latest-MacOSX-arm64.sh
 source ~/.zshrc
 conda list
 ```
