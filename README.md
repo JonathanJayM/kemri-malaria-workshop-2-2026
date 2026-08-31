@@ -338,24 +338,14 @@ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
 source ~/.zshrc
 conda list
 ```
-Create a Python environment:
-
+Install the required Python packages
+```
+Installation of Vina 1.25 and other libraries
 ```bash
-conda create -n vina python=3.12
+conda create -n vina -c conda-forge python=3.12
 conda activate vina
-you should see: (base) biohack@MacBook-2 workshop-2-Malaria % 
-```
-Install the required Python packages:
-
-```bash
-pip install rdkit nglview meeko MDAnalysis plip jupyter lab
-```
-```Run Jupyter lab on vina environment
-on terminal run: (vina) biohack@MacBook-2 workshop-2-Malaria % jupyter lab
-```
-Installation of Vina 1.25
-```bash
-conda install conda-forge::vina==1.2.5
+conda install -c conda-forge rdkit openbabel mdanalysis nglview jupyterlab
+python -m pip install meeko plip vina
 ```
 Run the notebooks sequentially:
 
