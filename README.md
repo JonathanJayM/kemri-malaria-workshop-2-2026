@@ -334,6 +334,9 @@ Install the required Python packages:
 ```bash
 pip install rdkit nglview meeko MDAnalysis plip jupyter lab
 ```
+```Run Jupyter lab on vina environment
+on terminal run: (vina) biohack@MacBook-2 workshop-2-Malaria % jupyter lab
+```
 
 Run the notebooks sequentially:
 
