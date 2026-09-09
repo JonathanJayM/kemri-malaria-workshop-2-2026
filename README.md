@@ -343,7 +343,7 @@ Install the required Python package: Installation of Vina 1.25 and other librari
 ```bash
 conda create -n vina -c conda-forge python=3.12
 conda activate vina
-conda install -c conda-forge rdkit openbabel mdanalysis nglview jupyterlab gemmi prolif prody
+conda install -c conda-forge rdkit openbabel mdanalysis nglview jupyterlab gemmi prolif prody py3Dmol1
 python -m pip install meeko plip vina
 ```
 Run the notebooks sequentially:
