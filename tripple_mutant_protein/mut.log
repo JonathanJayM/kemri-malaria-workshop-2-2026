@@ -1,0 +1,31 @@
+2026-10-18 11:38:15,411 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2026-10-18 11:38:15,411 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-10-18 11:38:15,411 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-10-18 11:38:15,412 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2026-10-18 11:38:15,412 INFO:main.py:772:main_driver:Loading topology files.
+2026-10-18 11:38:15,540 INFO:main.py:774:main_driver:Loading molecule: pymols/cleaned_protein.pdb
+2026-10-18 11:38:15,553 INFO:main.py:779:main_driver:Setting up molecule.
+2026-10-18 11:38:15,566 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for CP6.  Parsing as new residue.
+2026-10-18 11:38:15,567 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for NDP.  Parsing as new residue.
+2026-10-18 11:38:15,568 INFO:main.py:417:setup_molecule:Created biomolecule object with 223 residues and 1902 atoms.
+2026-10-18 11:38:15,568 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2026-10-18 11:38:15,578 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between THR A 85 and LYS A 96!
+2026-10-18 11:38:15,580 INFO:main.py:613:non_trivial:Loading forcefield.
+2026-10-18 11:38:15,596 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2026-10-18 11:38:15,601 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
+2026-10-18 11:38:15,604 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
+2026-10-18 11:38:15,604 INFO:main.py:627:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2026-10-18 11:38:15,606 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
+2026-10-18 11:38:15,607 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue ASN A 231 at coordinates 49.912, -10.889, 52.552
+2026-10-18 11:38:15,607 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2026-10-18 11:38:15,608 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2026-10-18 11:38:15,718 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2026-10-18 11:38:16,214 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2026-10-18 11:38:17,266 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2026-10-18 11:38:18,910 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2026-10-18 11:38:18,914 INFO:main.py:722:non_trivial:Regenerating headers.
+2026-10-18 11:38:18,915 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2026-10-18 11:38:18,978 WARNING:main.py:320:print_pqr:Ignoring 2956 header lines in output.
+2026-10-18 11:38:18,978 WARNING:main.py:324:print_pqr:Ignoring 65 missing lines in output.
+2026-10-18 11:38:19,021 WARNING:main.py:363:print_pdb:Ignoring 2956 header lines in output.
+2026-10-18 11:38:19,021 WARNING:main.py:367:print_pdb:Ignoring 65 missing lines in output.

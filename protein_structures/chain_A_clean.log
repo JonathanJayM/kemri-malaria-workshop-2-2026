@@ -1,156 +1,66 @@
-2026-08-24 23:43:58,811 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
-2026-08-24 23:43:58,812 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
-2026-08-24 23:43:58,812 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
-2026-08-24 23:43:58,812 INFO:main.py:768:main_driver:Checking and transforming input arguments.
-2026-08-24 23:43:58,812 INFO:main.py:772:main_driver:Loading topology files.
-2026-08-24 23:43:58,905 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
-2026-08-24 23:43:58,905 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
-2026-08-24 23:43:58,906 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
-2026-08-24 23:43:58,906 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
-2026-08-24 23:43:58,931 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
+2026-10-22 21:43:00,073 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2026-10-22 21:43:00,073 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-10-22 21:43:00,074 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-10-22 21:43:00,074 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2026-10-22 21:43:00,074 INFO:main.py:772:main_driver:Loading topology files.
+2026-10-22 21:43:00,205 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
+2026-10-22 21:43:00,206 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
+2026-10-22 21:43:00,207 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
+2026-10-22 21:43:00,207 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
+2026-10-22 21:43:00,219 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
 
-2026-08-24 23:43:58,931 ERROR:io.py:469:get_molecule:['REMARK']
-2026-08-24 23:43:58,931 INFO:main.py:779:main_driver:Setting up molecule.
-2026-08-24 23:43:58,968 INFO:main.py:417:setup_molecule:Created biomolecule object with 547 residues and 4543 atoms.
-2026-08-24 23:43:58,969 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
-2026-08-24 23:43:58,986 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between THR A 85 and LYS A 96!
-2026-08-24 23:43:58,989 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN A 231 and ASP A 283!
-2026-08-24 23:43:58,992 INFO:main.py:613:non_trivial:Loading forcefield.
-2026-08-24 23:43:59,018 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
-2026-08-24 23:43:59,026 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
-2026-08-24 23:43:59,026 INFO:main.py:632:non_trivial:Updating disulfide bridges.
-2026-08-24 23:43:59,029 INFO:main.py:635:non_trivial:Debumping biomolecule.
-2026-08-24 23:43:59,274 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
-2026-08-24 23:43:59,983 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
-2026-08-24 23:44:01,094 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
-2026-08-24 23:44:03,265 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
-2026-08-24 23:44:03,274 INFO:main.py:722:non_trivial:Regenerating headers.
-2026-08-24 23:44:03,276 INFO:main.py:747:non_trivial:Regenerating PDB lines.
-2026-08-24 23:44:03,349 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
-2026-08-24 23:44:03,449 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
-2026-08-24 23:51:30,798 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
-2026-08-24 23:51:30,799 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
-2026-08-24 23:51:30,799 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
-2026-08-24 23:51:30,799 INFO:main.py:768:main_driver:Checking and transforming input arguments.
-2026-08-24 23:51:30,800 INFO:main.py:772:main_driver:Loading topology files.
-2026-08-24 23:51:30,885 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
-2026-08-24 23:51:30,885 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
-2026-08-24 23:51:30,886 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
-2026-08-24 23:51:30,886 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
-2026-08-24 23:51:30,898 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
+2026-10-22 21:43:00,219 ERROR:io.py:469:get_molecule:['REMARK']
+2026-10-22 21:43:00,220 INFO:main.py:779:main_driver:Setting up molecule.
+2026-10-22 21:43:00,233 INFO:main.py:417:setup_molecule:Created biomolecule object with 221 residues and 1837 atoms.
+2026-10-22 21:43:00,233 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2026-10-22 21:43:00,240 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between THR A 85 and LYS A 96!
+2026-10-22 21:43:00,243 INFO:main.py:613:non_trivial:Loading forcefield.
+2026-10-22 21:43:00,266 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2026-10-22 21:43:00,270 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
+2026-10-22 21:43:00,272 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
+2026-10-22 21:43:00,272 INFO:main.py:627:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2026-10-22 21:43:00,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
+2026-10-22 21:43:00,276 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue ASN A 231 at coordinates 49.912, -10.889, 52.552
+2026-10-22 21:43:00,277 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2026-10-22 21:43:00,278 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2026-10-22 21:43:00,391 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2026-10-22 21:43:00,694 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2026-10-22 21:43:01,658 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2026-10-22 21:43:02,801 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2026-10-22 21:43:02,806 INFO:main.py:722:non_trivial:Regenerating headers.
+2026-10-22 21:43:02,807 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2026-10-22 21:43:02,838 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
+2026-10-22 21:43:02,894 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
+2026-10-22 21:47:18,692 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2026-10-22 21:47:18,693 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2026-10-22 21:47:18,693 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2026-10-22 21:47:18,693 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2026-10-22 21:47:18,694 INFO:main.py:772:main_driver:Loading topology files.
+2026-10-22 21:47:18,784 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
+2026-10-22 21:47:18,785 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
+2026-10-22 21:47:18,785 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
+2026-10-22 21:47:18,785 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
+2026-10-22 21:47:18,796 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
 
-2026-08-24 23:51:30,898 ERROR:io.py:469:get_molecule:['REMARK']
-2026-08-24 23:51:30,898 INFO:main.py:779:main_driver:Setting up molecule.
-2026-08-24 23:51:30,912 INFO:main.py:417:setup_molecule:Created biomolecule object with 221 residues and 1837 atoms.
-2026-08-24 23:51:30,912 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
-2026-08-24 23:51:30,921 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between THR A 85 and LYS A 96!
-2026-08-24 23:51:30,923 INFO:main.py:613:non_trivial:Loading forcefield.
-2026-08-24 23:51:30,948 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
-2026-08-24 23:51:30,952 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
-2026-08-24 23:51:30,954 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
-2026-08-24 23:51:30,954 INFO:main.py:627:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
-2026-08-24 23:51:30,956 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
-2026-08-24 23:51:30,958 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue ASN A 231 at coordinates 49.912, -10.889, 52.552
-2026-08-24 23:51:30,958 INFO:main.py:632:non_trivial:Updating disulfide bridges.
-2026-08-24 23:51:30,959 INFO:main.py:635:non_trivial:Debumping biomolecule.
-2026-08-24 23:51:31,070 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
-2026-08-24 23:51:31,343 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
-2026-08-24 23:51:31,906 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
-2026-08-24 23:51:32,776 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
-2026-08-24 23:51:32,780 INFO:main.py:722:non_trivial:Regenerating headers.
-2026-08-24 23:51:32,781 INFO:main.py:747:non_trivial:Regenerating PDB lines.
-2026-08-24 23:51:32,807 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
-2026-08-24 23:51:32,862 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
-2026-08-25 00:14:15,609 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
-2026-08-25 00:14:15,610 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
-2026-08-25 00:14:15,610 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
-2026-08-25 00:14:15,610 INFO:main.py:768:main_driver:Checking and transforming input arguments.
-2026-08-25 00:14:15,611 INFO:main.py:772:main_driver:Loading topology files.
-2026-08-25 00:14:15,744 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
-2026-08-25 00:14:15,745 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
-2026-08-25 00:14:15,745 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
-2026-08-25 00:14:15,745 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
-2026-08-25 00:14:15,773 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
-
-2026-08-25 00:14:15,773 ERROR:io.py:469:get_molecule:['REMARK']
-2026-08-25 00:14:15,773 INFO:main.py:779:main_driver:Setting up molecule.
-2026-08-25 00:14:15,809 INFO:main.py:417:setup_molecule:Created biomolecule object with 547 residues and 4543 atoms.
-2026-08-25 00:14:15,810 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
-2026-08-25 00:14:15,824 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between THR A 85 and LYS A 96!
-2026-08-25 00:14:15,826 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN A 231 and ASP A 283!
-2026-08-25 00:14:15,830 INFO:main.py:613:non_trivial:Loading forcefield.
-2026-08-25 00:14:15,852 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
-2026-08-25 00:14:15,859 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
-2026-08-25 00:14:15,859 INFO:main.py:632:non_trivial:Updating disulfide bridges.
-2026-08-25 00:14:15,861 INFO:main.py:635:non_trivial:Debumping biomolecule.
-2026-08-25 00:14:16,167 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
-2026-08-25 00:14:16,898 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
-2026-08-25 00:14:17,953 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
-2026-08-25 00:14:19,938 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
-2026-08-25 00:14:19,947 INFO:main.py:722:non_trivial:Regenerating headers.
-2026-08-25 00:14:19,950 INFO:main.py:747:non_trivial:Regenerating PDB lines.
-2026-08-25 00:14:20,037 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
-2026-08-25 00:14:20,135 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
-2026-08-25 00:48:06,728 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
-2026-08-25 00:48:06,729 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
-2026-08-25 00:48:06,729 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
-2026-08-25 00:48:06,729 INFO:main.py:768:main_driver:Checking and transforming input arguments.
-2026-08-25 00:48:06,730 INFO:main.py:772:main_driver:Loading topology files.
-2026-08-25 00:48:06,832 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
-2026-08-25 00:48:06,833 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
-2026-08-25 00:48:06,833 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
-2026-08-25 00:48:06,833 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
-2026-08-25 00:48:06,845 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
-
-2026-08-25 00:48:06,845 ERROR:io.py:469:get_molecule:['REMARK']
-2026-08-25 00:48:06,845 INFO:main.py:779:main_driver:Setting up molecule.
-2026-08-25 00:48:06,860 INFO:main.py:417:setup_molecule:Created biomolecule object with 221 residues and 1837 atoms.
-2026-08-25 00:48:06,861 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
-2026-08-25 00:48:06,867 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between THR A 85 and LYS A 96!
-2026-08-25 00:48:06,869 INFO:main.py:613:non_trivial:Loading forcefield.
-2026-08-25 00:48:06,890 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
-2026-08-25 00:48:06,895 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
-2026-08-25 00:48:06,896 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
-2026-08-25 00:48:06,897 INFO:main.py:627:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
-2026-08-25 00:48:06,898 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
-2026-08-25 00:48:06,901 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue ASN A 231 at coordinates 49.912, -10.889, 52.552
-2026-08-25 00:48:06,901 INFO:main.py:632:non_trivial:Updating disulfide bridges.
-2026-08-25 00:48:06,903 INFO:main.py:635:non_trivial:Debumping biomolecule.
-2026-08-25 00:48:07,041 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
-2026-08-25 00:48:07,348 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
-2026-08-25 00:48:07,915 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
-2026-08-25 00:48:08,803 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
-2026-08-25 00:48:08,810 INFO:main.py:722:non_trivial:Regenerating headers.
-2026-08-25 00:48:08,811 INFO:main.py:747:non_trivial:Regenerating PDB lines.
-2026-08-25 00:48:08,839 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
-2026-08-25 00:48:08,882 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
-2026-08-25 00:54:14,626 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
-2026-08-25 00:54:14,627 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
-2026-08-25 00:54:14,627 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
-2026-08-25 00:54:14,628 INFO:main.py:768:main_driver:Checking and transforming input arguments.
-2026-08-25 00:54:14,628 INFO:main.py:772:main_driver:Loading topology files.
-2026-08-25 00:54:14,761 INFO:main.py:774:main_driver:Loading molecule: protein_structures/chain_A_clean.pdb
-2026-08-25 00:54:14,762 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
-2026-08-25 00:54:14,762 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
-2026-08-25 00:54:14,763 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
-2026-08-25 00:54:14,805 WARNING:io.py:468:get_molecule:Warning: protein_structures/chain_A_clean.pdb is a non-standard PDB file.
-
-2026-08-25 00:54:14,805 ERROR:io.py:469:get_molecule:['REMARK']
-2026-08-25 00:54:14,805 INFO:main.py:779:main_driver:Setting up molecule.
-2026-08-25 00:54:14,855 INFO:main.py:417:setup_molecule:Created biomolecule object with 547 residues and 4543 atoms.
-2026-08-25 00:54:14,856 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
-2026-08-25 00:54:14,896 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between THR A 85 and LYS A 96!
-2026-08-25 00:54:14,898 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN A 231 and ASP A 283!
-2026-08-25 00:54:14,901 INFO:main.py:613:non_trivial:Loading forcefield.
-2026-08-25 00:54:14,965 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
-2026-08-25 00:54:15,060 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
-2026-08-25 00:54:15,061 INFO:main.py:632:non_trivial:Updating disulfide bridges.
-2026-08-25 00:54:15,069 INFO:main.py:635:non_trivial:Debumping biomolecule.
-2026-08-25 00:54:15,568 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
-2026-08-25 00:54:16,856 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
-2026-08-25 00:54:18,587 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
-2026-08-25 00:54:20,775 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
-2026-08-25 00:54:20,785 INFO:main.py:722:non_trivial:Regenerating headers.
-2026-08-25 00:54:20,787 INFO:main.py:747:non_trivial:Regenerating PDB lines.
-2026-08-25 00:54:20,875 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
-2026-08-25 00:54:21,003 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
+2026-10-22 21:47:18,796 ERROR:io.py:469:get_molecule:['REMARK']
+2026-10-22 21:47:18,796 INFO:main.py:779:main_driver:Setting up molecule.
+2026-10-22 21:47:18,807 INFO:main.py:417:setup_molecule:Created biomolecule object with 221 residues and 1837 atoms.
+2026-10-22 21:47:18,807 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2026-10-22 21:47:18,815 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between THR A 85 and LYS A 96!
+2026-10-22 21:47:18,816 INFO:main.py:613:non_trivial:Loading forcefield.
+2026-10-22 21:47:18,837 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2026-10-22 21:47:18,841 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
+2026-10-22 21:47:18,842 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
+2026-10-22 21:47:18,842 INFO:main.py:627:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2026-10-22 21:47:18,844 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue ASN A 231
+2026-10-22 21:47:18,846 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue ASN A 231 at coordinates 49.912, -10.889, 52.552
+2026-10-22 21:47:18,846 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2026-10-22 21:47:18,847 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2026-10-22 21:47:18,954 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2026-10-22 21:47:19,273 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2026-10-22 21:47:19,951 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2026-10-22 21:47:20,986 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2026-10-22 21:47:20,990 INFO:main.py:722:non_trivial:Regenerating headers.
+2026-10-22 21:47:20,991 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2026-10-22 21:47:21,020 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
+2026-10-22 21:47:21,073 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
