@@ -1,0 +1,13 @@
+receptor = chain_A_clean.pdbqt
+
+out = out.pdbqt
+
+center_x = 20.03
+center_y = 5.43
+center_z = 58.75
+
+size_x = 20 
+size_y = 20 
+size_z = 20 
+
+exhaustiveness = 8
